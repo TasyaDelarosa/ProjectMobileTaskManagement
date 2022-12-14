@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tugasin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="kategoriTugas">
+        <item>Penting Mendesak</item>
+        <item>Tidak Penting Mendesak</item>
+        <item>Penting Tidak Mendesak</item>
+        <item>Tidak Penting Tidak Mendesak</item>
+    </string-array>
+
+    <string-array name="statusTugas">
+        <item>To Do</item>
+        <item>In Progress</item>
+        <item>Complete</item>
+    </string-array>
+
+</resources>

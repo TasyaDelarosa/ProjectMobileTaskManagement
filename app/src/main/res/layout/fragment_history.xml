@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".fragments.HistoryFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="History"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="@color/judul"
+        android:gravity="center|top"
+        android:layout_marginTop="26dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="22dp"/>
+
+    <LinearLayout
+        android:minHeight="900dp"
+        android:orientation="vertical"
+        android:layout_marginTop="67dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/roundedbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="32dp">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:visibility="gone"
+            android:id="@+id/recyclelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:listitem="@layout/adapterlist" />
+
+        <LinearLayout
+            android:id="@+id/historyempty"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="213dp"
+                android:layout_height="213dp"
+                android:layout_gravity="center"
+                android:src="@drawable/historyempty"/>
+            <TextView
+                android:text="History Empty"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:fontFamily="@font/inter_bold"
+                android:textColor="@color/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

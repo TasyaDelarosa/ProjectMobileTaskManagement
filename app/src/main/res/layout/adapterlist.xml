@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/klik"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundedlist"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matkul"
+            android:textColor="@color/judul"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="16.8dp"
+            android:maxLines="1"
+            android:layout_marginTop="34.07dp"
+            android:layout_marginStart="14.05dp"
+            android:layout_marginEnd="16.06dp"
+            android:layout_marginBottom="10.8dp"/>
+
+        <TextView
+            android:id="@+id/isi"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matkul"
+            android:textColor="@color/isi"
+            android:fontFamily="@font/inter"
+            android:textSize="12dp"
+            android:layout_marginStart="14.05dp"
+            android:layout_marginEnd="16.06dp"
+            android:layout_marginBottom="20.66dp"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Progress"
+            android:textColor="@color/inprogress"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="10dp"
+            android:background="@drawable/roundedbg"
+            android:backgroundTint="#26FFA500"
+            android:paddingStart="5dp"
+            android:paddingBottom="2.08dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="1dp"
+            android:layout_marginStart="14.05dp"
+            android:layout_marginEnd="16.06dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/kategoritugas"
+        android:text="Penting Mendesak"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:padding="3dp"
+        android:background="@drawable/roundedbg"
+        android:backgroundTint="@color/pentingmendesak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="@color/white"
+        android:layout_marginStart="14.05dp"
+        android:layout_marginEnd="16.06dp"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="6.33dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="9.49dp"
+        android:paddingTop="2dp"/>
+
+    <ImageView
+        android:id="@+id/opsi"
+        android:src="@drawable/ic_kebab"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="31dp"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
